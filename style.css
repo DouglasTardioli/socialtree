@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+  background-color: var(--body-bg-color);
+}
+
+.photoperfil {
+  width: 200px;
+  height: 200px;
+
+  clip-path: circle(50% at 50% 50%);
+  /* display: flex;
+  justify-content: center; */
+}
+
+#circle {
+  margin-top: 24px;
+  padding: 6px 7px;
+  border: 3px solid var(--purple);
+  width: 213px;
+  height: 213px;
+  border-radius: 50%;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.instagram {
+  color: var(--purple);
+
+  text-decoration: none;
+  font-family: 'poppins', sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  width: 326px;
+  height: 49px;
+
+  margin-top: 16px;
+
+  border: 2px solid var(--purple);
+  background-color: var(--body-bg-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+#button > a {
+  color: var(--purple);
+  text-decoration: none;
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+}
+
+#icons {
+  margin-top: 68px;
+  display: flex;
+  gap: 29px;
+}
