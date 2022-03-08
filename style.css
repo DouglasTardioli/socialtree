@@ -5,7 +5,7 @@
 html,
 body {
   height: 100%;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 
@@ -45,7 +45,7 @@ body {
   color: var(--purple);
 
   text-decoration: none;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   display: flex;
   justify-content: center;
@@ -65,7 +65,7 @@ body {
 #button > a {
   color: var(--purple);
   text-decoration: none;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
